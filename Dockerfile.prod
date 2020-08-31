@@ -10,7 +10,7 @@ USER node
 
 WORKDIR /home/node/app
 
-#COPY . .
+COPY . .
 
 #RUN npm install
 
