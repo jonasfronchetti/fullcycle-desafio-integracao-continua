@@ -9,3 +9,11 @@ RUN npm config set cache /home/node/app/.npm-cache --global
 USER node
 
 WORKDIR /home/node/app
+
+COPY . .
+
+#RUN npm install
+
+#RUN npm run build
+
+#ENTRYPOINT ["npm", "run", "start:prod"]

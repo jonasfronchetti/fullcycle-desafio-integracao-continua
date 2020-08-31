@@ -1,3 +1,3 @@
 *.ts @jonasfronchetti
 *.json @jonasfronchetti
-/test/ @jonasfronchetti
+/.docker/ @jonasfronchetti
